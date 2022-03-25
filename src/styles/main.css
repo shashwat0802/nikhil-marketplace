@@ -1,0 +1,476 @@
+@import url('http://fonts.cdnfonts.com/css/questrian');
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+@import url('http://fonts.cdnfonts.com/css/crispy-tofu');
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+
+body {
+  min-height: 100vh;
+  background-image: url('../images/Group\ 12.svg ');
+  background-size: cover;
+}
+
+span {
+  font-family: 'Questrian', sans-serif;
+}
+
+.vesperLibre {
+  font-family: 'Vesper Libre', serif;
+}
+.connectWallet {
+  font-family: 'Questrian', sans-serif;
+  background: linear-gradient(
+    206.87deg,
+    rgba(255, 172, 23, 0.89) -12.2%,
+    rgba(200, 80, 192, 0.72) 39.85%,
+    #4158d0 94.11%
+  );
+  border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+  .hamburger-menu {
+    display: inline-block;
+  }
+}
+
+.Questrian {
+  font-family: 'Questrian', sans-serif;
+}
+
+.custom-btn-img {
+  max-width: 52px;
+  max-height: 60px;
+}
+
+.p-multiverse {
+  font-family: 'Sanchez';
+}
+
+.club-header {
+  margin: 10rem 0;
+}
+
+.club-img {
+  width: 235px;
+  height: 340px;
+}
+
+.club-card {
+  height: 400px;
+}
+
+.rowtwobtn {
+  background: #4d4d8f;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.sanchez {
+  font-family: 'Sanchez', serif;
+  max-width: 450px;
+}
+
+.crispyTofu {
+  font-family: 'Crispy Tofu', sans-serif;
+}
+
+.rectangle {
+  background: #4d4d8f !important;
+  border-radius: 0.5rem;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.IRLevents {
+  padding: 0.1rem;
+}
+
+.roadmap {
+  background-image: url('../images/roadmap\ 1.svg');
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.roadmapPara {
+  font-size: 10px;
+  max-width: 450px;
+}
+.multiverseTeam {
+  max-width: 80%;
+  height: auto;
+}
+.rachelLove {
+  margin-top: 1.1rem;
+}
+/* .Dbone {
+  padding-left: 12rem;
+} */
+.grass {
+  background: url(../images/grass\ 1.svg);
+
+  margin-top: 12rem;
+  max-width: 100%;
+  background-size: cover;
+}
+
+#custom-btn::after {
+  background-image: url('../images/Vector.svg') !important;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#custom-btn:not(.collapsed)::after {
+  transform: rotate(90deg) !important;
+}
+
+.padding_faq {
+  padding-top: 25rem;
+}
+.copyright {
+  margin-top: 12rem;
+  padding-bottom: 5rem;
+}
+
+.accordion-item {
+  border-radius: 25px !important;
+}
+.accordion-header {
+  border-radius: 25px !important;
+}
+.accordion-button {
+  border-radius: 25px !important;
+}
+
+/* phase 1 */
+@media (min-width: 1440px) {
+  .phase-1 {
+    max-width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 25rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .phase-1 {
+    max-width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 14rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .phase-1 {
+    max-width: 200px;
+    position: absolute;
+    top: 15px;
+    left: 13rem;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 778px) {
+  .phase-1 {
+    max-width: 200px;
+    position: absolute;
+    top: 15px;
+    left: 6rem;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 778px) {
+  .phase-1 {
+    max-width: 129px;
+    position: absolute;
+    top: 22px;
+    left: 5rem;
+  }
+}
+
+@media (max-width: 560px) and (min-width: 390px) {
+  .phase-1 {
+    max-width: 104px;
+    position: absolute;
+    top: 28px;
+    left: 3rem;
+  }
+}
+
+/* phase 3 */
+
+@media (min-width: 1440px) {
+  .phase-3 {
+    max-width: 200px;
+    position: absolute;
+    top: 133px;
+    left: 25rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .phase-3 {
+    max-width: 200px;
+    position: absolute;
+    top: 139px;
+    left: 14rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .phase-3 {
+    max-width: 200px;
+    position: absolute;
+    top: 151px;
+    left: 13rem;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 778px) {
+  .phase-3 {
+    max-width: 200px;
+    position: absolute;
+    top: 136px;
+    left: 6rem;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 778px) {
+  .phase-3 {
+    max-width: 175px;
+    position: absolute;
+    top: 159px;
+    left: 3rem;
+  }
+}
+
+@media (max-width: 560px) and (min-width: 390px) {
+  .phase-3 {
+    max-width: 167px;
+    position: absolute;
+    top: 171px;
+    left: 1rem;
+  }
+}
+
+/* Phase-5 */
+
+@media (min-width: 1440px) {
+  .phase-5 {
+    max-width: 200px;
+    position: absolute;
+    top: 339px;
+    left: 25rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .phase-5 {
+    max-width: 200px;
+    position: absolute;
+    top: 326px;
+    left: 14rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .phase-5 {
+    max-width: 200px;
+    position: absolute;
+    top: 358px;
+    left: 13rem;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 778px) {
+  .phase-5 {
+    max-width: 200px;
+    position: absolute;
+    top: 356px;
+    left: 6rem;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 778px) {
+  .phase-5 {
+    max-width: 175px;
+    position: absolute;
+    top: 341px;
+    left: 3rem;
+  }
+}
+
+@media (max-width: 560px) and (min-width: 390px) {
+  .phase-5 {
+    max-width: 167px;
+    position: absolute;
+    top: 347px;
+    left: 1rem;
+  }
+}
+
+/* phase2 */
+@media (min-width: 1440px) {
+  .phase-2 {
+    max-width: 200px;
+    position: absolute;
+    top: 86px;
+    right: 26rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .phase-2 {
+    max-width: 200px;
+    position: absolute;
+    top: 100px;
+    right: 15rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .phase-2 {
+    max-width: 200px;
+    position: absolute;
+    top: 92px;
+    left: 33rem;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 778px) {
+  .phase-2 {
+    max-width: 200px;
+    position: absolute;
+    top: 88px;
+    left: 25rem;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 778px) {
+  .phase-2 {
+    max-width: 175px;
+    position: absolute;
+    top: 91px;
+    left: 20rem;
+  }
+}
+
+@media (max-width: 560px) and (min-width: 390px) {
+  .phase-2 {
+    max-width: 167px;
+    position: absolute;
+    top: 94px;
+    left: 20rem;
+  }
+}
+
+/* phase-4 */
+
+@media (min-width: 1440px) {
+  .phase-4 {
+    max-width: 200px;
+    position: absolute;
+    top: 258px;
+    right: 26rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .phase-4 {
+    max-width: 200px;
+    position: absolute;
+    top: 251px;
+    right: 15rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .phase-4 {
+    max-width: 200px;
+    position: absolute;
+    top: 249px;
+    left: 33rem;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 778px) {
+  .phase-4 {
+    max-width: 200px;
+    position: absolute;
+    top: 255px;
+    left: 25rem;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 778px) {
+  .phase-4 {
+    max-width: 175px;
+    position: absolute;
+    top: 249px;
+    left: 20rem;
+  }
+}
+
+@media (max-width: 560px) and (min-width: 390px) {
+  .phase-4 {
+    max-width: 167px;
+    position: absolute;
+    top: 246px;
+    left: 20rem;
+  }
+}
+
+/* phase-6 */
+
+@media (min-width: 1440px) {
+  .phase-6 {
+    max-width: 200px;
+    position: absolute;
+    top: 410px;
+    right: 26rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .phase-6 {
+    max-width: 200px;
+    position: absolute;
+    top: 409px;
+    right: 15rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .phase-6 {
+    max-width: 200px;
+    position: absolute;
+    top: 388px;
+    left: 33rem;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 778px) {
+  .phase-6 {
+    max-width: 200px;
+    position: absolute;
+    top: 390px;
+    left: 25rem;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 778px) {
+  .phase-6 {
+    max-width: 175px;
+    position: absolute;
+    top: 386px;
+    left: 20rem;
+  }
+}
+
+@media (max-width: 560px) and (min-width: 390px) {
+  .phase-6 {
+    max-width: 167px;
+    position: absolute;
+    top: 432px;
+    left: 20rem;
+  }
+}

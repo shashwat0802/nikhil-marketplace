@@ -6,6 +6,7 @@ import Faq from '../components/Faq';
 import Header from '../components/Header';
 import MultiverseTeam from '../components/MultiverseTeam';
 import Nft from '../components/Nft';
+import Roadmap from '../components/Roadmap';
 import '../styles/main.css';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Nft />
       <Club />
+      <Roadmap />
       <MultiverseTeam />
       <Faq />
     </>

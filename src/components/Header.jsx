@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <Navbar expand="lg">
       <Navbar.Brand href="#home">
-        <img src={logo} alt="" className="ps-md-4 heading-img" />
+        <img src={logo} alt="" className="ps-md-4 heading-img img-fluid" />
       </Navbar.Brand>
       <Navbar.Toggle
         data-bs-toggle="collapse"

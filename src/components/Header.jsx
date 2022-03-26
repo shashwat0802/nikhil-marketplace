@@ -6,6 +6,11 @@ import { Link } from 'react-router-dom';
 import { Navbar } from 'react-bootstrap';
 
 export default function Header() {
+  const handleScroll = (id) => {
+    const anchor = document.querySelector(id);
+    anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  };
+
   return (
     <Navbar expand="lg">
       <Navbar.Brand href="#home">
@@ -30,18 +35,27 @@ export default function Header() {
           <Link
             to="#about"
             className="p-2 text-white btn btn-link Questrian text-decoration-none"
+            onClick={() => {
+              handleScroll('#about');
+            }}
           >
             ABOUT
           </Link>
           <Link
-            to="#about"
+            to="#team"
             className="p-2 text-white btn btn-link Questrian text-decoration-none"
+            onClick={() => {
+              handleScroll('#team');
+            }}
           >
             TEAM
           </Link>
           <Link
-            to="#about"
+            to="#faq"
             className="p-2 text-white btn btn-link Questrian text-decoration-none"
+            onClick={() => {
+              handleScroll('#faq');
+            }}
           >
             FAQ
           </Link>

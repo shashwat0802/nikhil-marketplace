@@ -3,7 +3,7 @@ import { Accordion } from 'react-bootstrap';
 
 export default function Faq() {
   return (
-    <section id="#faq">
+    <section id="faq">
       <div className="grass">
         <div className="container pt-5">
           <h1 className="Questrian text-black text-center padding_faq">
@@ -61,8 +61,28 @@ export default function Faq() {
               </Accordion.Header>
               <Accordion.Body>
                 <span className="sanchez fs-5">
-                  There will be a maximum of 10,000 unique adventurers ever
-                  minted.
+                  On launch day, the presale will occur for 24 hours, allowing
+                  whitelisted members to avoid high gas fees. After the presale
+                  ends the public sale will begin for non-whitelisted members.
+                  <br /> <br />
+                  How to warp in(mint) your Adventurer: 1. Download the metamask
+                  wallet extension to your chrome browser <br />
+                  2. Purchase Ethereum from any crypto exchange(coinbase,
+                  kraken, binance) <br />
+                  3. Transfer the corresponding amount of Ethereum over from the
+                  exchange to <br />
+                  your Metamask wallet <br />
+                  4. During the mint, go to the Multiverse Club website and
+                  select the amount of NFTs you’d like to mint, or “warp.”{' '}
+                  <br />
+                  5. When you click “Mint,” Metamask will pop up on your screen
+                  asking for permission to connect to your wallet and make this
+                  transaction. <br />
+                  6. Confirm this transaction and pay the gas fees When the
+                  transaction has been confirmed, the NFT(s) will be transferred
+                  to your wallet. <br />
+                  7. To check your NFTs, open up your Opensea account and click
+                  on your profile picture.
                 </span>
               </Accordion.Body>
             </Accordion.Item>

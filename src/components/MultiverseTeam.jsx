@@ -8,7 +8,7 @@ import matt from '../images/Mattwebsite 1.svg';
 
 export default function MultiverseTeam() {
   return (
-    <section id="#multiverse">
+    <section id="team">
       <div class="container">
         <h2 class="text-black text-center text-uppercase Questrian mt-5">
           The multiverse team

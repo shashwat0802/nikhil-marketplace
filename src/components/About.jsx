@@ -3,7 +3,7 @@ import earth from '../images/earth.svg';
 
 export default function About() {
   return (
-    <section id="#about">
+    <section id="about">
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6">
